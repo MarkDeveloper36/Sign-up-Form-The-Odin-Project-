@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+#image-sidebar {
+    background-image: url(./imgs/photo-1592288801240-7b18bb06e94f.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#image-sidebar > p{
+    font-size: calc(0.6rem + 0.15vw);
+    margin: 0 0 0.3rem 0;
+    padding: 0.15rem;
+    background-color: rgba(62, 62, 62, 0.5);
+    color: white;
+    border-radius: 0.6rem;
+}
+
+#image-sidebar > p > span{
+    text-decoration: underline;
+}
