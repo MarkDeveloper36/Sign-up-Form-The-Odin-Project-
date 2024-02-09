@@ -14,6 +14,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 35vw;
+    min-width: 440px;
     height: 100vh;
     margin: 0;
     display: flex;
@@ -35,17 +36,61 @@ body{
     text-decoration: underline;
 }
 
-#image-sidebar > h1{
-    margin-top: 4rem;
-    font-size: calc(1.2rem + 2.5vw);
-    letter-spacing: calc(0.4rem + 0.2vw);
+#logo-div > h1{
+    margin-top: 4.3rem;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
     position: absolute;
-    top: 0;
+    top: 2.5px;
+    left: 6.5rem;
+    z-index: 1;
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-family: 'Protest Guerrilla', Arial, Helvetica, sans-serif;
     color: white;
-    width: 35vw;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    width: 300px;
+}
+
+#svg-div{
+    position: absolute;
+    top: 4.1rem;
+    left: 2rem;
+    z-index: 2;
+}
+
+#circleBrown{
+    position: absolute;
+    top: 3.7rem;
+    left: 2rem;
+    z-index: 1;
+    background-color: #80461b;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border: 4px solid #2b1700;
+}
+
+#circleBlack{
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 1.15rem;
+}
+
+#backgroundLogo{
+    width: 295px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 63px;
+    left: 8rem;
+    border-radius: 0 8rem 8rem 0;
+}
+
+#svg{
+    width: 100px;
+    height: 100px;
 }
