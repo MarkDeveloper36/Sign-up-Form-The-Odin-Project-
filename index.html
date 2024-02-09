@@ -31,5 +31,45 @@
         </div>
         <p>Photo by <span>Justin Clark</span> on <span>Unsplash</span></p>
     </div>
+    <main>
+        <div id="main-header">
+            <p id="adventurePara" class="main-para">Word vandaag nog lid van TropiQuest en ontdek het ultieme jungleavontuur! Beleef adembenemende avonturen en ontdek de wilde dieren van de jungle. Schrijf je nu in en laat het avontuur beginnen!</p>
+            <p id="adventureText" class="main-para">Klaar voor het avontuur?</p>
+        </div>
+    <form action="/submit" method="post">
+        <h2>Tijd voor actie!</h2>
+        <div id="input-div">
+            <div class="input-div">
+                <label for="fname">NAAM</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+            <div class="input-div">
+                <label for="lname">ACHTERNAAM</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div class="input-div">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-div">
+                <label for="telephone">TELEFOONNUMMER</label>
+                <input type="tel" id="telephone" name="telephone" required>
+            </div>
+            <div class="input-div">
+                <label for="password">WACHTWOORD</label>
+                <input class="password-error" type="password" id="password" name="password" required>
+                <p id="password-error-para">*Wachtwoorden komen niet overeen</p>
+            </div>
+            <div class="input-div">
+                <label for="password-confomation">BEVESTIG WACHTWOORD</label>
+                <input class="password-error" type="password" id="password-confomation" name="password-confomation" required>
+            </div>
+        </div>
+    </form>
+        <div id="footer">
+            <button id="register">Aanmelden</button>
+            <p>Heb je al een account? <a>Log in</a></p>
+        </div>
+    </main>
 </body>
 </html>
