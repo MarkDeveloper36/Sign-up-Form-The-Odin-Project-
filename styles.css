@@ -197,10 +197,19 @@ input:focus {
     border: 1px solid red;
 }
 
-#password-error-para{
+#password-conformation-error-p{
     display: block;
     color: red;
     margin-top: 0;
     font-size: 0.75rem;
     transform: translateY(4px);
+}
+
+#password-length-error-p{
+    display: none;
+    position:absolute;
+    top: 64vh;
+    color: red;
+    margin-top: 0;
+    font-size: 0.75rem;
 }
