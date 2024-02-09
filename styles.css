@@ -207,9 +207,8 @@ input:focus {
 
 #password-length-error-p{
     display: none;
-    position:absolute;
-    top: 64vh;
     color: red;
     margin-top: 0;
     font-size: 0.75rem;
+    transform: translateY(-28px);
 }
